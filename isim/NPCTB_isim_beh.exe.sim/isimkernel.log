@@ -1,0 +1,10 @@
+Command line:
+   NPCTB_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  51448
+
+Tue Apr 04 19:41:42 2017
+
+
+ Elaboration Time: 0.1875 sec
