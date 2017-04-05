@@ -58,7 +58,7 @@ ARCHITECTURE behavior OF NPCTB IS
    signal SALIDA : std_logic_vector(31 downto 0);
 
    -- Clock period definitions
-   constant CLK_period : time := 10 ns;
+   constant CLK_period : time := 20 ns;
  
 BEGIN
  
@@ -83,10 +83,16 @@ BEGIN
    -- Stimulus process
    stim_proc: process
    begin		
+		RST <= '1';
       -- hold reset state for 100 ns.
-      wait for 100 ns;	
-
-      wait for CLK_period*10;
+      wait for 100 ns;
+		RST <= '0';
+		ENTRADA <= x"00000001"; 
+      wait for 100 ns;
+		ENTRADA <= x"00000010";
+		wait for 100 ns; 
+		ENTRADA <= x"00000011";
+		
 
       -- insert stimulus here 
 

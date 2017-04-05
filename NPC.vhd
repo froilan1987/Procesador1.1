@@ -41,8 +41,8 @@ architecture Behavioral of NPC is
 	begin
 		process(CLK, ENTRADA, RST) -- se activa
 			begin
-				if(RST = '0')then
-					SALIDA <= (others=>'0');
+				if(RST = '1')then
+					SALIDA <= x"00000000";
 				else
 					if(rising_edge(CLK))then
 						SALIDA <= ENTRADA;

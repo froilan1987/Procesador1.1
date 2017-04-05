@@ -3,14 +3,14 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 --> Parameter TMPDIR set to xst/projnav.tmp
 
 
-Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.15 secs
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.12 secs
  
 --> Parameter xsthdpdir set to xst
 
 
-Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.15 secs
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.12 secs
  
 --> Reading design: NPC.prj
 
@@ -204,8 +204,6 @@ Design Statistics
 # IOs                              : 66
 
 Cell Usage :
-# BELS                             : 1
-#      INV                         : 1
 # FlipFlops/Latches                : 32
 #      FDC                         : 32
 # Clock Buffers                    : 1
@@ -220,8 +218,7 @@ Device utilization summary:
 
 Selected Device : 3s100evq100-4 
 
- Number of Slices:                        1  out of    960     0%  
- Number of 4 input LUTs:                  1  out of   1920     0%  
+ Number of Slices:                        0  out of    960     0%  
  Number of IOs:                          66
  Number of bonded IOBs:                  66  out of     66   100%  
     IOB Flip Flops:                      32
@@ -256,7 +253,7 @@ Asynchronous Control Signals Information:
 -----------------------------------+------------------------+-------+
 Control Signal                     | Buffer(FF name)        | Load  |
 -----------------------------------+------------------------+-------+
-RST_inv(RST_inv1_INV_0:O)          | NONE(SALIDA_0)         | 32    |
+RST                                | IBUF                   | 32    |
 -----------------------------------+------------------------+-------+
 
 Timing Summary:
@@ -313,12 +310,12 @@ Offset:              4.283ns (Levels of Logic = 1)
 =========================================================================
 
 
-Total REAL time to Xst completion: 6.00 secs
-Total CPU time to Xst completion: 6.50 secs
+Total REAL time to Xst completion: 5.00 secs
+Total CPU time to Xst completion: 4.91 secs
  
 --> 
 
-Total memory usage is 234636 kilobytes
+Total memory usage is 234612 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :    0 (   0 filtered)
