@@ -2,14 +2,14 @@ Command line:
    NPCTB_isim_beh.exe
      -simmode  gui
      -simrunnum  0
-     -socket  51448
+     -socket  53943
 
-Tue Apr 04 19:41:42 2017
+Thu Apr 06 19:57:53 2017
 
 
- Elaboration Time: 0.1875 sec
+ Elaboration Time: 0.328125 sec
 
- Current Memory Usage: 1012.91 Meg
+ Current Memory Usage: 1012.93 Meg
 
  Total Signals          : 8
  Total Nets             : 66
@@ -21,9 +21,9 @@ Tue Apr 04 19:41:42 2017
  Total Scalar Nets and Variables : 427
 Total Line Count : 17
 
- Total Simulation Time: 0.1875 sec
+ Total Simulation Time: 0.359375 sec
 
- Current Memory Usage: 383.697 Meg
+ Current Memory Usage: 1012.9 Meg
 
-Tue Apr 04 19:57:06 2017
+Thu Apr 06 19:58:41 2017
 

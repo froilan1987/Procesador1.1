@@ -21,7 +21,7 @@
 #include <malloc.h>
 #define alloca _alloca
 #endif
-static const char *ng0 = "E:/Usuario/Documentos/Xilinx/Procesador/NPCTB.vhd";
+static const char *ng0 = "E:/Usuario/Documentos/Xilinx/Procesador1.1/NPCTB.vhd";
 
 
 
@@ -137,7 +137,7 @@ LAB4:    xsi_set_current_line(89, ng0);
     *((unsigned char *)t6) = (unsigned char)2;
     xsi_driver_first_trans_fast(t2);
     xsi_set_current_line(90, ng0);
-    t2 = (t0 + 5596);
+    t2 = (t0 + 5624);
     t4 = (t0 + 3552);
     t5 = (t4 + 56U);
     t6 = *((char **)t5);
@@ -158,7 +158,7 @@ LAB5:    goto LAB4;
 LAB7:    goto LAB5;
 
 LAB8:    xsi_set_current_line(92, ng0);
-    t2 = (t0 + 5628);
+    t2 = (t0 + 5656);
     t4 = (t0 + 3552);
     t5 = (t4 + 56U);
     t6 = *((char **)t5);
@@ -179,7 +179,7 @@ LAB9:    goto LAB8;
 LAB11:    goto LAB9;
 
 LAB12:    xsi_set_current_line(94, ng0);
-    t2 = (t0 + 5660);
+    t2 = (t0 + 5688);
     t4 = (t0 + 3552);
     t5 = (t4 + 56U);
     t6 = *((char **)t5);
