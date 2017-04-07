@@ -3,16 +3,16 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 --> Parameter TMPDIR set to xst/projnav.tmp
 
 
-Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.13 secs
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.30 secs
  
 --> Parameter xsthdpdir set to xst
 
 
-Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.13 secs
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.30 secs
  
---> Reading design: NPC.prj
+--> Reading design: PC.prj
 
 TABLE OF CONTENTS
   1) Synthesis Options Summary
@@ -35,17 +35,17 @@ TABLE OF CONTENTS
 *                      Synthesis Options Summary                        *
 =========================================================================
 ---- Source Parameters
-Input File Name                    : "NPC.prj"
+Input File Name                    : "PC.prj"
 Input Format                       : mixed
 Ignore Synthesis Constraint File   : NO
 
 ---- Target Parameters
-Output File Name                   : "NPC"
+Output File Name                   : "PC"
 Output Format                      : NGC
 Target Device                      : xc3s100e-4-vq100
 
 ---- Source Options
-Top Module Name                    : NPC
+Top Module Name                    : PC
 Automatic FSM Extraction           : YES
 FSM Encoding Algorithm             : Auto
 Safe Implementation                : No
@@ -104,20 +104,21 @@ Slice Utilization Ratio Delta      : 5
 =========================================================================
 *                          HDL Compilation                              *
 =========================================================================
-Compiling vhdl file "E:/Usuario/Documentos/Xilinx/Procesador1.1/NPC.vhd" in Library work.
-Architecture behavioral of Entity npc is up to date.
+Compiling vhdl file "E:/Usuario/Documentos/Xilinx/Procesador1.1/PC.vhd" in Library work.
+Entity <pc> compiled.
+Entity <PC> (Architecture <Behavioral>) compiled.
 
 =========================================================================
 *                     Design Hierarchy Analysis                         *
 =========================================================================
-Analyzing hierarchy for entity <NPC> in library <work> (architecture <behavioral>).
+Analyzing hierarchy for entity <PC> in library <work> (architecture <Behavioral>).
 
 
 =========================================================================
 *                            HDL Analysis                               *
 =========================================================================
-Analyzing Entity <NPC> in library <work> (Architecture <behavioral>).
-Entity <NPC> analyzed. Unit <NPC> generated.
+Analyzing Entity <PC> in library <work> (Architecture <Behavioral>).
+Entity <PC> analyzed. Unit <PC> generated.
 
 
 =========================================================================
@@ -126,12 +127,12 @@ Entity <NPC> analyzed. Unit <NPC> generated.
 
 Performing bidirectional port resolution...
 
-Synthesizing Unit <NPC>.
-    Related source file is "E:/Usuario/Documentos/Xilinx/Procesador1.1/NPC.vhd".
-    Found 32-bit register for signal <SALIDA>.
+Synthesizing Unit <PC>.
+    Related source file is "E:/Usuario/Documentos/Xilinx/Procesador1.1/PC.vhd".
+    Found 32-bit register for signal <salida>.
     Summary:
 	inferred  32 D-type flip-flop(s).
-Unit <NPC> synthesized.
+Unit <PC> synthesized.
 
 
 =========================================================================
@@ -161,11 +162,11 @@ Macro Statistics
 *                         Low Level Synthesis                           *
 =========================================================================
 
-Optimizing unit <NPC> ...
+Optimizing unit <PC> ...
 
 Mapping all equations...
 Building and optimizing final netlist ...
-Found area constraint ratio of 100 (+ 5) on block NPC, actual ratio is 1.
+Found area constraint ratio of 100 (+ 5) on block PC, actual ratio is 1.
 
 Final Macro Processing ...
 
@@ -193,8 +194,8 @@ Partition Implementation Status
 *                            Final Report                               *
 =========================================================================
 Final Results
-RTL Top Level Output File Name     : NPC.ngr
-Top Level Output File Name         : NPC
+RTL Top Level Output File Name     : PC.ngr
+Top Level Output File Name         : PC
 Output Format                      : NGC
 Optimization Goal                  : Speed
 Keep Hierarchy                     : No
@@ -244,7 +245,7 @@ Clock Information:
 -----------------------------------+------------------------+-------+
 Clock Signal                       | Clock buffer(FF name)  | Load  |
 -----------------------------------+------------------------+-------+
-CLK                                | BUFGP                  | 32    |
+clk                                | BUFGP                  | 32    |
 -----------------------------------+------------------------+-------+
 
 Asynchronous Control Signals Information:
@@ -252,7 +253,7 @@ Asynchronous Control Signals Information:
 -----------------------------------+------------------------+-------+
 Control Signal                     | Buffer(FF name)        | Load  |
 -----------------------------------+------------------------+-------+
-RST                                | IBUF                   | 32    |
+rst                                | IBUF                   | 32    |
 -----------------------------------+------------------------+-------+
 
 Timing Summary:
@@ -269,39 +270,39 @@ Timing Detail:
 All values displayed in nanoseconds (ns)
 
 =========================================================================
-Timing constraint: Default OFFSET IN BEFORE for Clock 'CLK'
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
   Total number of paths / destination ports: 32 / 32
 -------------------------------------------------------------------------
 Offset:              1.946ns (Levels of Logic = 1)
-  Source:            ENTRADA<0> (PAD)
-  Destination:       SALIDA_0 (FF)
-  Destination Clock: CLK rising
+  Source:            entrada<0> (PAD)
+  Destination:       salida_0 (FF)
+  Destination Clock: clk rising
 
-  Data Path: ENTRADA<0> to SALIDA_0
+  Data Path: entrada<0> to salida_0
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     IBUF:I->O             1   1.218   0.420  ENTRADA_0_IBUF (ENTRADA_0_IBUF)
-     FDC:D                     0.308          SALIDA_0
+     IBUF:I->O             1   1.218   0.420  entrada_0_IBUF (entrada_0_IBUF)
+     FDC:D                     0.308          salida_0
     ----------------------------------------
     Total                      1.946ns (1.526ns logic, 0.420ns route)
                                        (78.4% logic, 21.6% route)
 
 =========================================================================
-Timing constraint: Default OFFSET OUT AFTER for Clock 'CLK'
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
   Total number of paths / destination ports: 32 / 32
 -------------------------------------------------------------------------
 Offset:              4.283ns (Levels of Logic = 1)
-  Source:            SALIDA_31 (FF)
-  Destination:       SALIDA<31> (PAD)
-  Source Clock:      CLK rising
+  Source:            salida_31 (FF)
+  Destination:       salida<31> (PAD)
+  Source Clock:      clk rising
 
-  Data Path: SALIDA_31 to SALIDA<31>
+  Data Path: salida_31 to salida<31>
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDC:C->Q              1   0.591   0.420  SALIDA_31 (SALIDA_31)
-     OBUF:I->O                 3.272          SALIDA_31_OBUF (SALIDA<31>)
+     FDC:C->Q              1   0.591   0.420  salida_31 (salida_31)
+     OBUF:I->O                 3.272          salida_31_OBUF (salida<31>)
     ----------------------------------------
     Total                      4.283ns (3.863ns logic, 0.420ns route)
                                        (90.2% logic, 9.8% route)
@@ -309,12 +310,12 @@ Offset:              4.283ns (Levels of Logic = 1)
 =========================================================================
 
 
-Total REAL time to Xst completion: 6.00 secs
-Total CPU time to Xst completion: 6.35 secs
+Total REAL time to Xst completion: 8.00 secs
+Total CPU time to Xst completion: 7.87 secs
  
 --> 
 
-Total memory usage is 234620 kilobytes
+Total memory usage is 234628 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :    0 (   0 filtered)

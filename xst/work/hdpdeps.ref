@@ -1,6 +1,12 @@
-V3 3
+V3 7
 FL E:/Usuario/Documentos/Xilinx/Procesador/NPC.vhd 2017/04/04.19:40:45 P.20131013
-EN work/NPC 1491352855 FL E:/Usuario/Documentos/Xilinx/Procesador/NPC.vhd \
+FL E:/Usuario/Documentos/Xilinx/Procesador1.1/NPC.vhd 2017/04/04.19:40:45 P.20131013
+EN work/NPC 1491522876 FL E:/Usuario/Documentos/Xilinx/Procesador1.1/NPC.vhd \
       PB ieee/std_logic_1164 1381692176
-AR work/NPC/Behavioral 1491352856 \
-      FL E:/Usuario/Documentos/Xilinx/Procesador/NPC.vhd EN work/NPC 1491352855
+AR work/NPC/Behavioral 1491522877 \
+      FL E:/Usuario/Documentos/Xilinx/Procesador1.1/NPC.vhd EN work/NPC 1491522876
+FL E:/Usuario/Documentos/Xilinx/Procesador1.1/PC.vhd 2017/04/06.19:04:52 P.20131013
+EN work/PC 1491523504 FL E:/Usuario/Documentos/Xilinx/Procesador1.1/PC.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/PC/Behavioral 1491523505 \
+      FL E:/Usuario/Documentos/Xilinx/Procesador1.1/PC.vhd EN work/PC 1491523504

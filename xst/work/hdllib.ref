@@ -1,2 +1,4 @@
-AR npc behavioral E:/Usuario/Documentos/Xilinx/Procesador/NPC.vhd sub00/vhpl01 1491352856
-EN npc NULL E:/Usuario/Documentos/Xilinx/Procesador/NPC.vhd sub00/vhpl00 1491352855
+AR npc behavioral E:/Usuario/Documentos/Xilinx/Procesador1.1/NPC.vhd sub00/vhpl01 1491522877
+EN pc NULL E:/Usuario/Documentos/Xilinx/Procesador1.1/PC.vhd sub00/vhpl02 1491523504
+EN npc NULL E:/Usuario/Documentos/Xilinx/Procesador1.1/NPC.vhd sub00/vhpl00 1491522876
+AR pc behavioral E:/Usuario/Documentos/Xilinx/Procesador1.1/PC.vhd sub00/vhpl03 1491523505

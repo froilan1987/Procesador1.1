@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2017-04-04T19:18:28</DateModified>
+  <DateModified>2017-04-06T18:29:41</DateModified>
   <ModuleName>NPC</ModuleName>
   <SummaryTimeStamp>2017-04-04T18:55:36</SummaryTimeStamp>
-  <SavedFilePath>E:/Usuario/Documentos/Xilinx/Procesador/iseconfig/NPC.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>E:/Usuario/Documentos/Xilinx/Procesador</ImplementationReportsDirectory>
+  <SavedFilePath>E:/Usuario/Documentos/Xilinx/Procesador1.1/iseconfig/NPC.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>E:/Usuario/Documentos/Xilinx/Procesador1.1\</ImplementationReportsDirectory>
   <DateInitialized>2017-04-03T20:37:40</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>
