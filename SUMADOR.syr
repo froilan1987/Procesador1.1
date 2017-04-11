@@ -3,14 +3,14 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 --> Parameter TMPDIR set to xst/projnav.tmp
 
 
-Total REAL time to Xst completion: 1.00 secs
-Total CPU time to Xst completion: 0.28 secs
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.08 secs
  
 --> Parameter xsthdpdir set to xst
 
 
-Total REAL time to Xst completion: 1.00 secs
-Total CPU time to Xst completion: 0.29 secs
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.08 secs
  
 --> Reading design: SUMADOR.prj
 
@@ -105,19 +105,18 @@ Slice Utilization Ratio Delta      : 5
 *                          HDL Compilation                              *
 =========================================================================
 Compiling vhdl file "E:/Usuario/Documentos/Xilinx/Procesador1.1/SUMADOR.vhd" in Library work.
-Entity <sumador> compiled.
-Entity <SUMADOR> (Architecture <Behavioral>) compiled.
+Architecture behavioral of Entity sumador is up to date.
 
 =========================================================================
 *                     Design Hierarchy Analysis                         *
 =========================================================================
-Analyzing hierarchy for entity <SUMADOR> in library <work> (architecture <Behavioral>).
+Analyzing hierarchy for entity <SUMADOR> in library <work> (architecture <behavioral>).
 
 
 =========================================================================
 *                            HDL Analysis                               *
 =========================================================================
-Analyzing Entity <SUMADOR> in library <work> (Architecture <Behavioral>).
+Analyzing Entity <SUMADOR> in library <work> (Architecture <behavioral>).
 Entity <SUMADOR> analyzed. Unit <SUMADOR> generated.
 
 
@@ -314,12 +313,12 @@ Delay:               9.247ns (Levels of Logic = 35)
 =========================================================================
 
 
-Total REAL time to Xst completion: 9.00 secs
-Total CPU time to Xst completion: 8.69 secs
+Total REAL time to Xst completion: 6.00 secs
+Total CPU time to Xst completion: 5.88 secs
  
 --> 
 
-Total memory usage is 234640 kilobytes
+Total memory usage is 234608 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :    1 (   0 filtered)

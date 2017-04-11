@@ -57,7 +57,6 @@ ARCHITECTURE behavior OF SUMADOR_TEST IS
    -- No clocks detected in port list. Replace <clock> below with 
    -- appropriate port name 
  
-   constant <clock>_period : time := 20 ns;
  
 BEGIN
  
@@ -68,14 +67,7 @@ BEGIN
           salida => salida
         );
 
-   -- Clock process definitions
-   <clock>_process :process
-   begin
-		<clock> <= '0';
-		wait for <clock>_period/2;
-		<clock> <= '1';
-		wait for <clock>_period/2;
-   end process;
+  
  
 
    -- Stimulus process

@@ -6,13 +6,13 @@ EN work/NPC 1491522876 FL E:/Usuario/Documentos/Xilinx/Procesador1.1/NPC.vhd \
 AR work/NPC/Behavioral 1491522877 \
       FL E:/Usuario/Documentos/Xilinx/Procesador1.1/NPC.vhd EN work/NPC 1491522876
 FL E:/Usuario/Documentos/Xilinx/Procesador1.1/PC.vhd 2017/04/06.19:04:52 P.20131013
-EN work/PC 1491523504 FL E:/Usuario/Documentos/Xilinx/Procesador1.1/PC.vhd \
+EN work/PC 1491869038 FL E:/Usuario/Documentos/Xilinx/Procesador1.1/PC.vhd \
       PB ieee/std_logic_1164 1381692176
-AR work/PC/Behavioral 1491523505 \
-      FL E:/Usuario/Documentos/Xilinx/Procesador1.1/PC.vhd EN work/PC 1491523504
-FL E:/Usuario/Documentos/Xilinx/Procesador1.1/SUMADOR.vhd 2017/04/06.19:49:45 P.20131013
-EN work/SUMADOR 1491526195 \
+AR work/PC/Behavioral 1491869039 \
+      FL E:/Usuario/Documentos/Xilinx/Procesador1.1/PC.vhd EN work/PC 1491869038
+FL E:/Usuario/Documentos/Xilinx/Procesador1.1/SUMADOR.vhd 2017/04/06.19:57:19 P.20131013
+EN work/SUMADOR 1491868863 \
       FL E:/Usuario/Documentos/Xilinx/Procesador1.1/SUMADOR.vhd \
       PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
-AR work/SUMADOR/Behavioral 1491526196 \
-      FL E:/Usuario/Documentos/Xilinx/Procesador1.1/SUMADOR.vhd EN work/SUMADOR 1491526195
+AR work/SUMADOR/Behavioral 1491868864 \
+      FL E:/Usuario/Documentos/Xilinx/Procesador1.1/SUMADOR.vhd EN work/SUMADOR 1491868863
