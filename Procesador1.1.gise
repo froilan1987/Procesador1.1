@@ -91,6 +91,8 @@
     <transform xil_pn:end_ts="1491870505" xil_pn:in_ck="7364084516552411252" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1491870505">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="InputAdded"/>
       <outfile xil_pn:name="NPC.vhd"/>
       <outfile xil_pn:name="NPCTB.vhd"/>
       <outfile xil_pn:name="PC.vhd"/>
@@ -108,8 +110,8 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1491869127" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="-5642421681605757250" xil_pn:start_ts="1491870611">
-      <status xil_pn:value="ExecutingRun"/>
+    <transform xil_pn:end_ts="1491870611" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="-5642421681605757250" xil_pn:start_ts="1491870611">
+      <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
     <transform xil_pn:end_ts="1491870509" xil_pn:in_ck="7364084516552411252" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1491870509">
@@ -128,6 +130,7 @@
     <transform xil_pn:end_ts="1491870513" xil_pn:in_ck="7364084516552411252" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-7950242110326185758" xil_pn:start_ts="1491870509">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="fuse.log"/>
@@ -140,6 +143,7 @@
     <transform xil_pn:end_ts="1491870514" xil_pn:in_ck="4808205775750688521" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="4450514416008995535" xil_pn:start_ts="1491870513">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="isim.cmd"/>
