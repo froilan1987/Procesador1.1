@@ -34,12 +34,47 @@ use IEEE.NUMERIC_STD.ALL;
 entity UC is
     Port ( op : in  STD_LOGIC_VECTOR (1 downto 0);
            op3 : in  STD_LOGIC_VECTOR (5 downto 0);
-           salida : out  STD_LOGIC_VECTOR (6 downto 0));
+           salida : out  STD_LOGIC_VECTOR (5 downto 0));
 end UC;
 
 architecture Behavioral of UC is
-
+	process (op, op3)
 begin
+if (op="10")then
+		
+						case op3 is
+							when "000000" => -- ADD
+							   salida <= "000000";
+								
+							when "000001" => -- AND
+							   salida <= "000001";
+								
+							when "000010" => -- OR
+							   salida <= "000010";
+							
+							when "000011" => -- XOR
+							   salida <= "000011";
+								 
+							when "000100" => -- SUB
+							   salida <= "000100";
+																
+							when "000101" => -- ANDN
+							   salida <= "000101";
+															 
+							when "000110" => -- ORN
+							   salida <= "000110";
+								 
+						   when "000111" => -- XORN
+							   salida <= "000111";
+							
+							when others => 
+							   salida <= "000000";
+								 
+					   end case;
+						 
+		end if; 
+	
+	end process;
 
 
 end Behavioral;
