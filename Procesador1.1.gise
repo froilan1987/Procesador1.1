@@ -137,12 +137,12 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1492241452" xil_pn:in_ck="5050380149556950306" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1492241452">
+    <transform xil_pn:end_ts="1492242293" xil_pn:in_ck="-7030644998892742412" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1492242290">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForInputs"/>
       <status xil_pn:value="InputAdded"/>
-      <status xil_pn:value="InputChanged"/>
+      <outfile xil_pn:name="ALU.vhd"/>
       <outfile xil_pn:name="IM.vhd"/>
       <outfile xil_pn:name="NPC.vhd"/>
       <outfile xil_pn:name="NPCTB.vhd"/>
@@ -166,15 +166,16 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1492241276" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="6820427306042666997" xil_pn:start_ts="1492241276">
+    <transform xil_pn:end_ts="1492242293" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="-3183549561127658273" xil_pn:start_ts="1492242293">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForProperties"/>
     </transform>
     <transform xil_pn:end_ts="1492241456" xil_pn:in_ck="5050380149556950306" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1492241456">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
       <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="InputAdded"/>
       <outfile xil_pn:name="IM.vhd"/>
       <outfile xil_pn:name="NPC.vhd"/>
       <outfile xil_pn:name="NPCTB.vhd"/>
