@@ -280,7 +280,6 @@
     <transform xil_pn:end_ts="1492284882" xil_pn:in_ck="-1485850973296221883" xil_pn:name="TRAN_postSynthesisSimModel" xil_pn:prop_ck="2047527415504532232" xil_pn:start_ts="1492284877">
       <status xil_pn:value="FailedRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
     </transform>
   </transforms>
 

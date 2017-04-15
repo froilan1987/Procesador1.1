@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2017-04-15T14:12:58</DateModified>
+  <DateModified>2017-04-15T15:27:42</DateModified>
   <ModuleName>IM</ModuleName>
   <SummaryTimeStamp>Unknown</SummaryTimeStamp>
   <SavedFilePath>E:/Usuario/Documentos/Xilinx/Procesador1.1/iseconfig/IM.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>E:/Usuario/Documentos/Xilinx/Procesador1.1</ImplementationReportsDirectory>
+  <ImplementationReportsDirectory>E:/Usuario/Documentos/Xilinx/Procesador1.1\</ImplementationReportsDirectory>
   <DateInitialized>2017-04-15T14:12:58</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>
