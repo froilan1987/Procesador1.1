@@ -4,13 +4,13 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.08 secs
+Total CPU time to Xst completion: 0.09 secs
  
 --> Parameter xsthdpdir set to E:/Usuario/Documentos/Xilinx/Procesador1.1/xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.08 secs
+Total CPU time to Xst completion: 0.09 secs
  
 --> WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
 
@@ -18,8 +18,11 @@ Total CPU time to Xst completion: 0.08 secs
 *                          HDL Compilation                              *
 =========================================================================
 Compiling vhdl file "E:/Usuario/Documentos/Xilinx/Procesador1.1/IM.vhd" in Library work.
-Entity <IM> compiled.
-Entity <IM> (Architecture <Behavioral>) compiled.
+Entity <im> compiled.
+ERROR:HDLParsers:1401 - "E:/Usuario/Documentos/Xilinx/Procesador1.1/IM.vhd" Line 63. Object rst of mode OUT can not be read.
+ERROR:HDLParsers:1402 - "E:/Usuario/Documentos/Xilinx/Procesador1.1/IM.vhd" Line 67. Object salida of mode IN can not be updated.
+ERROR:HDLParsers:1402 - "E:/Usuario/Documentos/Xilinx/Procesador1.1/IM.vhd" Line 69. Object salida of mode IN can not be updated.
+ERROR:HDLParsers:1401 - "E:/Usuario/Documentos/Xilinx/Procesador1.1/IM.vhd" Line 66. Object rst of mode OUT can not be read.
 
 
 Total REAL time to Xst completion: 0.00 secs
@@ -27,9 +30,9 @@ Total CPU time to Xst completion: 0.15 secs
  
 --> 
 
-Total memory usage is 206104 kilobytes
+Total memory usage is 206076 kilobytes
 
-Number of errors   :    0 (   0 filtered)
+Number of errors   :    4 (   0 filtered)
 Number of warnings :    1 (   0 filtered)
 Number of infos    :    0 (   0 filtered)
 
