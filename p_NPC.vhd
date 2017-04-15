@@ -58,7 +58,7 @@ ARCHITECTURE behavior OF p_NPC IS
    signal SALIDA : std_logic_vector(31 downto 0);
 
    -- Clock period definitions
-   constant CLK_period : time := 10 ns;
+   constant CLK_period : time := 20 ns;
  
 BEGIN
  
@@ -84,9 +84,13 @@ BEGIN
    stim_proc: process
    begin		
       -- hold reset state for 100 ns.
-      wait for 100 ns;	
-
-      wait for CLK_period*10;
+      wait for 100 ns;
+			RST<='0';
+			ENTRADA<= x"00000001"; --1
+			wait for 100 ns;
+				ENTRADA<= x"00000010"; --2
+				wait for 100 ns;
+					ENTRADA<= x"00000001"; --1
 
       -- insert stimulus here 
 

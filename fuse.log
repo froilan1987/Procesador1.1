@@ -12,8 +12,7 @@ Compiling package std_logic_1164
 Compiling architecture behavioral of entity NPC [npc_default]
 Compiling architecture behavior of entity p_npc
 Time Resolution for simulation is 1ps.
-Waiting for 1 sub-compilation(s) to finish...
 Compiled 5 VHDL Units
 Built simulation executable E:/Usuario/Documentos/Xilinx/Procesador1.1/p_NPC_isim_beh.exe
-Fuse Memory Usage: 27808 KB
-Fuse CPU Usage: 468 ms
+Fuse Memory Usage: 27752 KB
+Fuse CPU Usage: 374 ms
