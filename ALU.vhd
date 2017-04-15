@@ -36,7 +36,7 @@ entity ALU is
     Port ( rs1 : in  STD_LOGIC_VECTOR (31 downto 0);
            rs2 : in  STD_LOGIC_VECTOR (31 downto 0);
            entrada : in  STD_LOGIC_VECTOR (5 downto 0);
-           salida : in  STD_LOGIC_VECTOR (31 downto 0));
+           salida : out  STD_LOGIC_VECTOR (31 downto 0));
 end ALU;
 
 architecture Behavioral of ALU is
