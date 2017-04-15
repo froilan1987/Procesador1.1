@@ -7,7 +7,8 @@ EN rf NULL E:/Usuario/Documentos/Xilinx/Procesador1.1/RF.vhd sub00/vhpl06 149223
 AR uc behavioral E:/Usuario/Documentos/Xilinx/Procesador1.1/UC.vhd sub00/vhpl11 1492241042
 EN uc NULL E:/Usuario/Documentos/Xilinx/Procesador1.1/UC.vhd sub00/vhpl10 1492241041
 EN npc NULL E:/Usuario/Documentos/Xilinx/Procesador1.1/NPC.vhd sub00/vhpl00 1491522876
+AR alu behavioral E:/Usuario/Documentos/Xilinx/Procesador1.1/ALU.vhd sub00/vhpl13 1492242100
 AR pc behavioral E:/Usuario/Documentos/Xilinx/Procesador1.1/PC.vhd sub00/vhpl03 1491869039
 EN sumador NULL E:/Usuario/Documentos/Xilinx/Procesador1.1/SUMADOR.vhd sub00/vhpl04 1491868863
 AR rf behavioral E:/Usuario/Documentos/Xilinx/Procesador1.1/RF.vhd sub00/vhpl07 1492231773
-EN alu NULL E:/Usuario/Documentos/Xilinx/Procesador1.1/ALU.vhd sub00/vhpl12 1492242008
+EN alu NULL E:/Usuario/Documentos/Xilinx/Procesador1.1/ALU.vhd sub00/vhpl12 1492242099

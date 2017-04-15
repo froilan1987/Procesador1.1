@@ -44,7 +44,7 @@ begin
 process(rs1,rs2,entrada)
 
 begin
-	case (salida) is 
+	case (entrada) is 
 		   when "000000" => -- ADD
 				salida <= rs1 + rs2;
 			when "000001" => -- AND
