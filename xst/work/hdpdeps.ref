@@ -6,12 +6,12 @@ EN work/ALU 1492242116 FL E:/Usuario/Documentos/Xilinx/Procesador1.1/ALU.vhd \
       PB ieee/STD_LOGIC_UNSIGNED 1381692179 PB ieee/NUMERIC_STD 1381692181
 AR work/ALU/Behavioral 1492242117 \
       FL E:/Usuario/Documentos/Xilinx/Procesador1.1/ALU.vhd EN work/ALU 1492242116
-FL E:/Usuario/Documentos/Xilinx/Procesador1.1/IM.vhd 2017/04/15.14:24:04 P.20131013
-EN work/IM 1492284263 FL E:/Usuario/Documentos/Xilinx/Procesador1.1/IM.vhd \
+FL E:/Usuario/Documentos/Xilinx/Procesador1.1/IM.vhd 2017/04/15.14:34:21 P.20131013
+EN work/IM 1492284895 FL E:/Usuario/Documentos/Xilinx/Procesador1.1/IM.vhd \
       PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179 \
       PB std/TEXTIO 1381692176
-AR work/IM/Behavioral 1492284264 \
-      FL E:/Usuario/Documentos/Xilinx/Procesador1.1/IM.vhd EN work/IM 1492284263
+AR work/IM/Behavioral 1492284896 \
+      FL E:/Usuario/Documentos/Xilinx/Procesador1.1/IM.vhd EN work/IM 1492284895
 FL E:/Usuario/Documentos/Xilinx/Procesador1.1/NPC.vhd 2017/04/04.19:40:45 P.20131013
 EN work/NPC 1491522876 FL E:/Usuario/Documentos/Xilinx/Procesador1.1/NPC.vhd \
       PB ieee/std_logic_1164 1381692176
