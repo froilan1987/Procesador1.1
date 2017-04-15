@@ -27,8 +27,9 @@ EN work/SUMADOR 1491868863 \
       PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
 AR work/SUMADOR/Behavioral 1491868864 \
       FL E:/Usuario/Documentos/Xilinx/Procesador1.1/SUMADOR.vhd EN work/SUMADOR 1491868863
-EN work/UC 0 FL E:/Usuario/Documentos/Xilinx/Procesador1.1/UC.vhd \
+FL E:/Usuario/Documentos/Xilinx/Procesador1.1/UC.vhd 2017/04/15.02:23:51 P.20131013
+EN work/UC 1492241041 FL E:/Usuario/Documentos/Xilinx/Procesador1.1/UC.vhd \
       PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179 \
       PB ieee/NUMERIC_STD 1381692181
-AR work/UC/Behavioral 0 \
-      FL E:/Usuario/Documentos/Xilinx/Procesador1.1/UC.vhd EN work/UC 0
+AR work/UC/Behavioral 1492241042 \
+      FL E:/Usuario/Documentos/Xilinx/Procesador1.1/UC.vhd EN work/UC 1492241041

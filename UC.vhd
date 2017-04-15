@@ -39,10 +39,12 @@ end UC;
 
 architecture Behavioral of UC is
 
+begin
 	process (op, op3)
 	
-begin
-if (op="10")then
+	begin
+	
+	if (op="10")then
 		
 						case op3 is
 							when "000000" => -- ADD
