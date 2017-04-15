@@ -69,22 +69,28 @@ BEGIN
         );
 
    -- Clock process definitions
-   <clock>_process :process
-   begin
-		<clock> <= '0';
-		wait for <clock>_period/2;
-		<clock> <= '1';
-		wait for <clock>_period/2;
-   end process;
+   --<clock>_process :process
+   --begin
+		--<clock> <= '0';
+		--wait for <clock>_period/2;
+		--<clock> <= '1';
+		--wait for <clock>_period/2;
+   --end process;
  
 
    -- Stimulus process
    stim_proc: process
    begin		
       -- hold reset state for 100 ns.
+	op <= "10";
+		op3 <= "000111";
       wait for 100 ns;	
-
-      wait for <clock>_period*10;
+		op <= "10";
+		op3 <= "000101";
+      wait for 100 ns;	
+		op <= "10";
+		op3 <= "000110";
+      wait for 100 ns;	
 
       -- insert stimulus here 
 
