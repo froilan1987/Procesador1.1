@@ -59,7 +59,7 @@ ARCHITECTURE behavior OF P_ALU IS
    -- No clocks detected in port list. Replace <clock> below with 
    -- appropriate port name 
  
-   constant <clock>_period : time := 10 ns;
+   --constant <clock>_period : time := 10 ns;
  
 BEGIN
  
@@ -72,22 +72,37 @@ BEGIN
         );
 
    -- Clock process definitions
-   <clock>_process :process
-   begin
-		<clock> <= '0';
-		wait for <clock>_period/2;
-		<clock> <= '1';
-		wait for <clock>_period/2;
-   end process;
+   --<clock>_process :process
+   --begin
+		--<clock> <= '0';
+		--wait for <clock>_period/2;
+		--<clock> <= '1';
+		--wait for <clock>_period/2;
+   --end process;
  
 
    -- Stimulus process
    stim_proc: process
    begin		
-      -- hold reset state for 100 ns.
       wait for 100 ns;	
-
-      wait for <clock>_period*10;
+		rs1 <= "00000000000000000000000000000000";
+		rs2 <= "11111111111111111111111111111111";
+		entrada <= "000010"; --or
+		
+		wait for 100 ns;
+		rs1 <= "00000000000000000000000000000000";
+		rs2 <= "11111111111111111111111111111111";
+		entrada <= "000100"; --resta
+		
+		wait for 100 ns;
+		rs1 <= "00000000000000000000000000000000";
+		rs2 <= "11111111111111111111111111111111";
+		entrada <= "000000"; --suma
+		
+		wait for 100 ns;
+		rs1 <= "00000000000000000000000000000000";
+		rs2 <= "11111111111111111111111111111111";
+		entrada <= "011100";
 
       -- insert stimulus here 
 
