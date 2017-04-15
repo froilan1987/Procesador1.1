@@ -58,7 +58,7 @@ ARCHITECTURE behavior OF p_pc IS
    signal salida : std_logic_vector(31 downto 0);
 
    -- Clock period definitions
-   constant clk_period : time := 15 ns;
+   constant clk_period : time := 30 ns;
  
 BEGIN
  
@@ -85,9 +85,15 @@ BEGIN
    begin		
 		rst<='1';
       -- hold reset state for 100 ns.
-      wait for 100 ns;	
+      wait for 100 ns;
+			rst<='0';
+			entrada<= x"00000001"; --1
+			wait for 100 ns;
+				entrada<= x"00000010"; --2
+				wait for 100 ns;
+					entrada<= x"00000001"; --1
 
-      wait for clk_period*10;
+      
 
       -- insert stimulus here 
 
