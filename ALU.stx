@@ -4,13 +4,13 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.09 secs
+Total CPU time to Xst completion: 0.08 secs
  
 --> Parameter xsthdpdir set to E:/Usuario/Documentos/Xilinx/Procesador1.1/xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.09 secs
+Total CPU time to Xst completion: 0.08 secs
  
 --> WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
 
@@ -18,22 +18,26 @@ Total CPU time to Xst completion: 0.09 secs
 *                          HDL Compilation                              *
 =========================================================================
 Compiling vhdl file "E:/Usuario/Documentos/Xilinx/Procesador1.1/ALU.vhd" in Library work.
-Entity <ALU> compiled.
-ERROR:HDLParsers:3312 - "E:/Usuario/Documentos/Xilinx/Procesador1.1/ALU.vhd" Line 49. Undefined symbol 'ctrs1'.
-ERROR:HDLParsers:1209 - "E:/Usuario/Documentos/Xilinx/Procesador1.1/ALU.vhd" Line 49. ctrs1: Undefined symbol (last report in this block)
-ERROR:HDLParsers:3312 - "E:/Usuario/Documentos/Xilinx/Procesador1.1/ALU.vhd" Line 49. Undefined symbol 'ctrs2'.
-ERROR:HDLParsers:1209 - "E:/Usuario/Documentos/Xilinx/Procesador1.1/ALU.vhd" Line 49. ctrs2: Undefined symbol (last report in this block)
-ERROR:HDLParsers:1402 - "E:/Usuario/Documentos/Xilinx/Procesador1.1/ALU.vhd" Line 65. Object entrada of mode IN can not be updated.
+Entity <alu> compiled.
+ERROR:HDLParsers:1401 - "E:/Usuario/Documentos/Xilinx/Procesador1.1/ALU.vhd" Line 47. Object salida of mode OUT can not be read.
+ERROR:HDLParsers:3384 - "E:/Usuario/Documentos/Xilinx/Procesador1.1/ALU.vhd" Line 48. Size mismatch.  String literal "000000" is of size 6 but is expected to be of size 32.
+ERROR:HDLParsers:3384 - "E:/Usuario/Documentos/Xilinx/Procesador1.1/ALU.vhd" Line 50. Size mismatch.  String literal "000001" is of size 6 but is expected to be of size 32.
+ERROR:HDLParsers:3384 - "E:/Usuario/Documentos/Xilinx/Procesador1.1/ALU.vhd" Line 52. Size mismatch.  String literal "000010" is of size 6 but is expected to be of size 32.
+ERROR:HDLParsers:3384 - "E:/Usuario/Documentos/Xilinx/Procesador1.1/ALU.vhd" Line 54. Size mismatch.  String literal "000011" is of size 6 but is expected to be of size 32.
+ERROR:HDLParsers:3384 - "E:/Usuario/Documentos/Xilinx/Procesador1.1/ALU.vhd" Line 56. Size mismatch.  String literal "000100" is of size 6 but is expected to be of size 32.
+ERROR:HDLParsers:3384 - "E:/Usuario/Documentos/Xilinx/Procesador1.1/ALU.vhd" Line 58. Size mismatch.  String literal "000101" is of size 6 but is expected to be of size 32.
+ERROR:HDLParsers:3384 - "E:/Usuario/Documentos/Xilinx/Procesador1.1/ALU.vhd" Line 60. Size mismatch.  String literal "000110" is of size 6 but is expected to be of size 32.
+ERROR:HDLParsers:3384 - "E:/Usuario/Documentos/Xilinx/Procesador1.1/ALU.vhd" Line 62. Size mismatch.  String literal "000111" is of size 6 but is expected to be of size 32.
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.15 secs
+Total CPU time to Xst completion: 0.12 secs
  
 --> 
 
-Total memory usage is 206136 kilobytes
+Total memory usage is 206116 kilobytes
 
-Number of errors   :    5 (   0 filtered)
+Number of errors   :    9 (   0 filtered)
 Number of warnings :    1 (   0 filtered)
 Number of infos    :    0 (   0 filtered)
 
