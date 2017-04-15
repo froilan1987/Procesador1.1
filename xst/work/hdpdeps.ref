@@ -1,4 +1,4 @@
-V3 16
+V3 19
 FL E:/Usuario/Documentos/Xilinx/Procesador/NPC.vhd 2017/04/04.19:40:45 P.20131013
 FL E:/Usuario/Documentos/Xilinx/Procesador1.1/IM.vhd 2017/04/15.01:37:53 P.20131013
 EN work/IM 1492239552 FL E:/Usuario/Documentos/Xilinx/Procesador1.1/IM.vhd \
@@ -27,3 +27,8 @@ EN work/SUMADOR 1491868863 \
       PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
 AR work/SUMADOR/Behavioral 1491868864 \
       FL E:/Usuario/Documentos/Xilinx/Procesador1.1/SUMADOR.vhd EN work/SUMADOR 1491868863
+EN work/UC 0 FL E:/Usuario/Documentos/Xilinx/Procesador1.1/UC.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179 \
+      PB ieee/NUMERIC_STD 1381692181
+AR work/UC/Behavioral 0 \
+      FL E:/Usuario/Documentos/Xilinx/Procesador1.1/UC.vhd EN work/UC 0

@@ -38,7 +38,9 @@ entity UC is
 end UC;
 
 architecture Behavioral of UC is
+
 	process (op, op3)
+	
 begin
 if (op="10")then
 		
