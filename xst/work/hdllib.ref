@@ -10,3 +10,4 @@ EN npc NULL E:/Usuario/Documentos/Xilinx/Procesador1.1/NPC.vhd sub00/vhpl00 1491
 AR pc behavioral E:/Usuario/Documentos/Xilinx/Procesador1.1/PC.vhd sub00/vhpl03 1491869039
 EN sumador NULL E:/Usuario/Documentos/Xilinx/Procesador1.1/SUMADOR.vhd sub00/vhpl04 1491868863
 AR rf behavioral E:/Usuario/Documentos/Xilinx/Procesador1.1/RF.vhd sub00/vhpl07 1492231773
+EN alu NULL E:/Usuario/Documentos/Xilinx/Procesador1.1/ALU.vhd sub00/vhpl12 1492241854

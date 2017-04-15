@@ -40,8 +40,33 @@ entity ALU is
 end ALU;
 
 architecture Behavioral of ALU is
+begin
+process(rs1,rs2,entrada)
 
 begin
+	case (entrada) is 
+		   when "000000" => -- ADD
+				entrada <= rs1 + ctrs2;
+			when "000001" => -- AND
+				entrada <= rs1 and ctrs2;
+			when "000010" => -- OR
+				entrada <= rs1 or ctrs2;
+			when "000011" => -- XOR
+				entrada <= rs1 xor ctrs2;
+			when "000100" => -- SUB
+				entrada <= rs1 - ctrs2;
+			when "000101" => -- ANDN
+				entrada <= rs1 nand ctrs2;
+			when "000110" => -- ORN
+				entrada <= rs1 nor ctrs2;
+			when "000111" => -- XORN
+				entrada <= rs1 xnor ctrs2;
+			when others => 
+				entrada <= (others=>'0');
+		end case;
+	
+	end process;
+
 
 
 end Behavioral;
