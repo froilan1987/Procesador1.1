@@ -33,8 +33,8 @@ use std.textio.all;
 
 entity IM is
     Port ( entrada : in  STD_LOGIC_VECTOR (31 downto 0);
-           salida : in  STD_LOGIC_VECTOR (31 downto 0);
-           rst : out  STD_LOGIC);
+           salida : out  STD_LOGIC_VECTOR (31 downto 0);
+           rst : in  STD_LOGIC);
 end IM;
 
 architecture Behavioral of IM is
@@ -59,8 +59,8 @@ begin
 	signal instructions : rom_type := InitRomFromFile("testJMPL.data");
 	
 begin
---reset,address, instructions)
-	process(rst,entrada,salida)
+--rst,entrada, salida)
+	process(rst,entrada,instructions)
 	begin
 		--if(rising_edge(clk))then
 			if(rst = '1')then
