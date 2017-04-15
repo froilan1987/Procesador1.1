@@ -54,7 +54,7 @@ begin
 						crs1 <= registro(conv_integer(rs1));
 						crs2 <= registro(conv_integer(rs2));
 						if (rsd /= "00000")then
-								registro(conv_integer(rsd))<= datawrite;
+								registro(conv_integer(rsd))<= dwr;
 						end if;
 					end if;
 		end process;
