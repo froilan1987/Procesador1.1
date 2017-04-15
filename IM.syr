@@ -10,7 +10,7 @@ Total CPU time to Xst completion: 0.08 secs
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.09 secs
+Total CPU time to Xst completion: 0.08 secs
  
 --> Reading design: IM.prj
 
@@ -105,7 +105,8 @@ Slice Utilization Ratio Delta      : 5
 *                          HDL Compilation                              *
 =========================================================================
 Compiling vhdl file "E:/Usuario/Documentos/Xilinx/Procesador1.1/IM.vhd" in Library work.
-Architecture behavioral of Entity im is up to date.
+Entity <im> compiled.
+Entity <im> (Architecture <behavioral>) compiled.
 
 =========================================================================
 *                     Design Hierarchy Analysis                         *
