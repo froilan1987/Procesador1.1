@@ -46,21 +46,21 @@ process(rs1,rs2,entrada)
 begin
 	case (entrada) is 
 		   when "000000" => -- ADD
-				entrada <= rs1 + ctrs2;
+				entrada <= rs1 + rs2;
 			when "000001" => -- AND
-				entrada <= rs1 and ctrs2;
+				entrada <= rs1 and rs2;
 			when "000010" => -- OR
-				entrada <= rs1 or ctrs2;
+				entrada <= rs1 or rs2;
 			when "000011" => -- XOR
-				entrada <= rs1 xor ctrs2;
+				entrada <= rs1 xor rs2;
 			when "000100" => -- SUB
-				entrada <= rs1 - ctrs2;
+				entrada <= rs1 - rs2;
 			when "000101" => -- ANDN
-				entrada <= rs1 nand ctrs2;
+				entrada <= rs1 nand rs2;
 			when "000110" => -- ORN
-				entrada <= rs1 nor ctrs2;
+				entrada <= rs1 nor rs2;
 			when "000111" => -- XORN
-				entrada <= rs1 xnor ctrs2;
+				entrada <= rs1 xnor rs2;
 			when others => 
 				entrada <= (others=>'0');
 		end case;
