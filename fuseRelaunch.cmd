@@ -1,1 +1,1 @@
--intstyle "ise" -incremental -o "E:/Usuario/Documentos/Xilinx/Procesador1.1/p_sumador_isim_beh.exe" -prj "E:/Usuario/Documentos/Xilinx/Procesador1.1/p_sumador_beh.prj" "work.p_sumador" 
+-intstyle "ise" -incremental -o "E:/Usuario/Documentos/Xilinx/Procesador1.1/p_NPC_isim_beh.exe" -prj "E:/Usuario/Documentos/Xilinx/Procesador1.1/p_NPC_beh.prj" "work.p_NPC" 
