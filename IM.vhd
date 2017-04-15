@@ -2,7 +2,7 @@
 -- Company: 
 -- Engineer: 
 -- 
--- Create Date:    00:35:07 04/15/2017 
+-- Create Date:    01:01:39 04/15/2017 
 -- Design Name: 
 -- Module Name:    IM - Behavioral 
 -- Project Name: 
@@ -31,7 +31,8 @@ use IEEE.STD_LOGIC_1164.ALL;
 
 entity IM is
     Port ( entrada : in  STD_LOGIC_VECTOR (31 downto 0);
-           salida : in  STD_LOGIC_VECTOR (31 downto 0));
+           salida : in  STD_LOGIC_VECTOR (31 downto 0);
+           rst : out  STD_LOGIC);
 end IM;
 
 architecture Behavioral of IM is
