@@ -56,7 +56,7 @@ begin
 		return temp_mem;
 	end function;
 	
-	signal instructions : rom_type := InitRomFromFile("testJMPL.data");
+	signal instructions : rom_type := InitRomFromFile("programa.data");
 	
 begin
 --rst,entrada, salida)
